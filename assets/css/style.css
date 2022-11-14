@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;1,500&display=swap");
+
+:root {
+    
+    --sub1-color: #082032;
+    --pure-white: white;
+    --pure-black: black;
+   
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+  }
+  html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--pure-white);
+    font-family: "Poppins", sans-serif;
+  }
+  html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+  }
+
+  
+ 
+  /* 404 section start */
+  .page_404{ 
+      padding:10px 0; 
+      background:var(--pure-white);
+      margin-top: 6rem;
+      min-height: 60vh;
+  }
+  .wrapper{
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 400px;
+    background-position: center;
+  }
+  .msg {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+  .msg h3{
+      font-size: 4rem;
+      font-weight: 700;
+  }
+  .msg p{
+      font-size: 1.5rem;
+      font-weight: 600;
+  }
+  .wrapper h1{
+    font-size:80px;
+    text-align: center;
+  }
+  
+  /* back button */
+  .backbtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .backbtn .btn {
+    position: relative;
+    line-height: 0;
+    padding: 1.6rem 3rem;
+    border-radius: .5em;
+    transition: 0.5s;
+    color: var(--pure-white);
+    background-color: var(--pure-black);
+   
+    text-align: center;
+  }
+  .backbtn .btn span {
+    font-weight: 600;
+    font-size: 1.7rem;
+    font-family: 'DM Sans', sans-serif;
+  }
+  .backbtn .btn i {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+    transition: 0.3s;
+  }
+  .backbtn .btn:hover{
+    background-color: transparent;
+    color: var(--pure-black);
+    border: 1px solid var(--pure-black);
+    box-shadow: none;
+  }
+  .backbtn .btn:hover i {
+    transform: translateX(-8px);
+  }
+  /* 404 section end */
+  
