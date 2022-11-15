@@ -8,7 +8,7 @@
 
 
  
-## Shot 📸
+## Shot 📸 ...
 
 
 ![Screenshot](./assets/preview/preview.png)
